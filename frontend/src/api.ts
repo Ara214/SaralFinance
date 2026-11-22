@@ -5,7 +5,7 @@ export type Result = Risk & {
   language: Language
   what_happened: string; what_to_do_next: string[]; analogy: string | null
 }
-const base = (import.meta.env.VITE_API_URL || 'http://127.0.0.1:8000').replace(/\/$/, '')
+const base = (import.meta.env.VITE_API_URL ?? (import.meta.env.DEV ? 'http://127.0.0.1:8000' : '')).replace(/\/$/, '')
 
 export async function request<T>(path: string, body?: object, signal?: AbortSignal): Promise<T> {
   let response: Response

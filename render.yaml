@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: saralfinance
+    runtime: docker
+    plan: free
+    healthCheckPath: /health

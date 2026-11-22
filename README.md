@@ -101,3 +101,7 @@ See [architecture](docs/architecture.md) and [verification](docs/testing.md).
 Risk predictions cannot authenticate senders or verify transactions. The combined policy raises more messages to high risk, including some legitimate-looking holdout examples. Local explanations include topic and amounts where recognizable and may omit details. Template-based synthetic metrics do not measure real-world fraud accuracy. LLM output may omit facts or give inaccurate explanations. The shared instructions, structured outputs and URL checks reduce risk, but prompt-injection resistance and multilingual quality need live evaluation. Future work could add a larger independently labeled set, more regional languages and an accessibility study.
 
 Educational use only. Verify transactions, deadlines and account status through independently obtained official channels.
+
+## Single-service deployment on Render
+
+Create a Free Docker Web Service from this repository, with the repository root as the build context and `/health` as the health check path. Alternatively, create a Blueprint to use `render.yaml`. Keep `GEMINI_API_KEY` unset for local explanations. The Dockerfile builds the React app and starts FastAPI on Render's `PORT`. Share the service's HTTPS URL with `/analyze` appended. Free services can sleep when idle, so allow time for the first request to wake the app.
