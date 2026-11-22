@@ -1,0 +1,52 @@
+{
+  "samples": 128,
+  "accuracy": 0.90625,
+  "classes": {
+    "Low": {
+      "precision": 0.8904109589041096,
+      "recall": 1.0,
+      "f1": 0.9420289855072463,
+      "support": 65
+    },
+    "Medium": {
+      "precision": 0.8918918918918919,
+      "recall": 1.0,
+      "f1": 0.9428571428571428,
+      "support": 33
+    },
+    "High": {
+      "precision": 1.0,
+      "recall": 0.6,
+      "f1": 0.7499999999999999,
+      "support": 30
+    }
+  },
+  "macro": {
+    "precision": 0.9274342835986671,
+    "recall": 0.8666666666666667,
+    "f1": 0.878295376121463
+  },
+  "labels": [
+    "Low",
+    "Medium",
+    "High"
+  ],
+  "confusion_matrix": [
+    [
+      65,
+      0,
+      0
+    ],
+    [
+      0,
+      33,
+      0
+    ],
+    [
+      8,
+      4,
+      18
+    ]
+  ],
+  "split": "evaluation"
+}

@@ -1,0 +1,63 @@
+{
+  "selected_model": "Linear SVM",
+  "cv_macro_f1": {
+    "Logistic Regression": 0.6900771445820508,
+    "Linear SVM": 0.7018180352703101
+  },
+  "test_accuracy": 0.71875,
+  "classification_report": {
+    "Low": {
+      "precision": 0.8387096774193549,
+      "recall": 0.8,
+      "f1-score": 0.8188976377952756,
+      "support": 65.0
+    },
+    "Medium": {
+      "precision": 1.0,
+      "recall": 0.36363636363636365,
+      "f1-score": 0.5333333333333333,
+      "support": 33.0
+    },
+    "High": {
+      "precision": 0.5185185185185185,
+      "recall": 0.9333333333333333,
+      "f1-score": 0.6666666666666666,
+      "support": 30.0
+    },
+    "accuracy": 0.71875,
+    "macro avg": {
+      "precision": 0.7857427319792912,
+      "recall": 0.6989898989898989,
+      "f1-score": 0.6729658792650919,
+      "support": 128.0
+    },
+    "weighted avg": {
+      "precision": 0.8052475358422939,
+      "recall": 0.71875,
+      "f1-score": 0.7095964566929134,
+      "support": 128.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      52,
+      0,
+      13
+    ],
+    [
+      8,
+      12,
+      13
+    ],
+    [
+      2,
+      0,
+      28
+    ]
+  ],
+  "labels": [
+    "Low",
+    "Medium",
+    "High"
+  ]
+}

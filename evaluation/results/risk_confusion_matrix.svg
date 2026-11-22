@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="630" height="380" viewBox="0 0 630 380" role="img" aria-labelledby="title detail">
+<title id="title">Risk classification on 128 synthetic holdout messages</title>
+<desc id="detail">[[65, 0, 0], [0, 33, 0], [8, 4, 18]]. Rows are actual labels and columns are rule predictions, ordered Low, Medium, High.</desc>
+<rect width="630" height="380" rx="16" fill="#FAF8F5"/>
+<g font-family="system-ui,sans-serif" fill="#352A38" text-anchor="middle">
+<text x="315" y="37" font-size="23" font-weight="700">Risk classification on the synthetic holdout</text>
+<text x="333" y="83" font-size="14">Predicted risk</text>
+<text x="37" y="223" transform="rotate(-90 37 223)" font-size="14">Actual risk</text>
+<text x="219" y="109" font-size="15">Low</text>
+<text x="110" y="155" font-size="15">Low</text>
+<text x="333" y="109" font-size="15">Medium</text>
+<text x="110" y="227" font-size="15">Medium</text>
+<text x="447" y="109" font-size="15">High</text>
+<text x="110" y="299" font-size="15">High</text>
+<rect x="164" y="119" width="110" height="67" rx="6" fill="#352A38" stroke="#B79D91"/>
+<text x="219" y="161" fill="#FAF8F5" font-weight="700" font-size="20">65</text>
+<rect x="278" y="119" width="110" height="67" rx="6" fill="#FAF8F5" stroke="#B79D91"/>
+<text x="333" y="161" fill="#352A38" font-weight="700" font-size="20">0</text>
+<rect x="392" y="119" width="110" height="67" rx="6" fill="#FAF8F5" stroke="#B79D91"/>
+<text x="447" y="161" fill="#352A38" font-weight="700" font-size="20">0</text>
+<rect x="164" y="191" width="110" height="67" rx="6" fill="#FAF8F5" stroke="#B79D91"/>
+<text x="219" y="233" fill="#352A38" font-weight="700" font-size="20">0</text>
+<rect x="278" y="191" width="110" height="67" rx="6" fill="#352A38" stroke="#B79D91"/>
+<text x="333" y="233" fill="#FAF8F5" font-weight="700" font-size="20">33</text>
+<rect x="392" y="191" width="110" height="67" rx="6" fill="#FAF8F5" stroke="#B79D91"/>
+<text x="447" y="233" fill="#352A38" font-weight="700" font-size="20">0</text>
+<rect x="164" y="263" width="110" height="67" rx="6" fill="#EDE4DB" stroke="#B79D91"/>
+<text x="219" y="305" fill="#352A38" font-weight="700" font-size="20">8</text>
+<rect x="278" y="263" width="110" height="67" rx="6" fill="#EDE4DB" stroke="#B79D91"/>
+<text x="333" y="305" fill="#352A38" font-weight="700" font-size="20">4</text>
+<rect x="392" y="263" width="110" height="67" rx="6" fill="#352A38" stroke="#B79D91"/>
+<text x="447" y="305" fill="#FAF8F5" font-weight="700" font-size="20">18</text>
+<text x="315" y="355" font-size="14">n = 128 · Accuracy 90.62% · High-risk recall 60%</text></g></svg>
